@@ -16,8 +16,12 @@ init .`, then configure `package.json` with your specific project details. Add
 code to `./src`, and it will be built to `./dist` which is the entry point in
 the manifest by default.
 
+### GitHub Pages
+
 To enable Github Pages, access the repository settings and configure the Pages
 settings to use the `main` (or `master`) branch and the `./docs` folder.
+
+### Scripts
 
 Available scripts are:
 
@@ -31,9 +35,12 @@ Available scripts are:
 - `release`: lints, tests, builds, generates docs, runs `update-version` and
   pushes.
 
+### Publishing
+
 Publishing to the [NPM Registry](http://npmjs.com/) is done automatically with
 a [GitHub Workflow](./.github/workflows/npm-publish.yml) that runs when a new
-tag is pushed.
+tag is pushed. You must add an NPM auth token with publish permissions as a
+secret named `npm_token`.
 
 ## Release History
 
