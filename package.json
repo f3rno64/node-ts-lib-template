@@ -1,6 +1,6 @@
 {
   "name": "@f3rno64/node-ts-lib-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A template repository for Node.JS TypeScript libraries",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
