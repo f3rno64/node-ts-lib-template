@@ -1,10 +1,5 @@
 # Node.JS TypeScript Library Template
 
-> node-ts-lib-template
-
-[![NPM Version][npm-image]][npm-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 This is a template repository meant to be used as a starting point for new
 [**`Node.JS`**][nodejs-url] projects written in
 [**`TypeScript`**][typescript-url].
@@ -285,7 +280,3 @@ for more information.
 [ep-tsdoc-url]: https://npmjs.com/package/eslint-plugin-tsdoc
 [ep-unicorn-url]: https://npmjs.com/package/eslint-plugin-unicorn
 [ep-write-good-comments-url]: https://npmjs.com/package/eslint-plugin-write-good-comments
-
-[npm-image]: https://img.shields.io/npm/v/@f3rno64/node-ts-lib-template.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@f3rno64/node-ts-lib-template
-[npm-downloads]: https://img.shields.io/npm/dm/@f3rno64/node-ts-lib-template.svg?style=flat-square
