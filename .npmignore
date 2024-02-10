@@ -1,9 +1,11 @@
+/.undodir
+/.nyc_output
+/.yalc
 /.yarn
 /.github
 /.husky
 /src
 /dist/tests
-/.nyc_output
 /docs
 
 .mocharc.json
@@ -16,6 +18,8 @@
 .prettierignore
 .nycrc.json
 .yarnrc.yml
+.yamlfmt.yml
+.yamllint.yml
 
 commitlint.config.ts
 tsconfig.json

@@ -1,0 +1,59 @@
+---
+extends: 'default'
+ignore: |
+  pnpm-lock.yaml
+  .github
+rules:
+  anchors:
+    forbid-undeclared-aliases: true
+    forbid-duplicated-anchors: true
+    forbid-unused-anchors: true
+  braces:
+    min-spaces-inside: 1
+    max-spaces-inside: 1
+    min-spaces-inside-empty: 1
+    max-spaces-inside-empty: 1
+  colons:
+    max-spaces-before: 0
+    max-spaces-after: 1
+  commas:
+    max-spaces-before: 0
+    min-spaces-after: 1
+    max-spaces-after: 1
+  comments:
+    require-starting-space: true
+    ignore-shebangs: true
+    min-spaces-from-content: 2
+  line-length:
+    max: 80
+    level: 'error'
+    allow-non-breakable-words: true
+    allow-non-breakable-inline-mappings: false
+  document-start:
+    present: true
+  empty-lines:
+    max: 1
+    max-start: 0
+    max-end: 0
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true
+    forbid-in-block-sequences: true
+  hyphens:
+    max-spaces-after: 1
+  indentation:
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false
+  new-line-at-end-of-file: 'enable'
+  new-lines:
+    type: 'platform'
+  quoted-strings:
+    quote-type: 'single'
+    required: true
+    extra-required: []
+    extra-allowed: []
+    allow-quoted-quotes: true
+  truthy:
+    allowed-values: ['true', 'false']
+    check-keys: true

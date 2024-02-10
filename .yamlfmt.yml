@@ -1,0 +1,8 @@
+---
+exclude: ['rnpm-lock.yaml', 'node_modules/**']
+gitignore_excludes: true
+formatter:
+  type: 'basic'
+  indent: 2
+  max_line_length: 80
+  include_document_start: true
