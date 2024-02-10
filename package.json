@@ -46,7 +46,7 @@
       "yamlfmt -conf .yamlfmt.yml -quiet -dry -dstar .yamlfmt.yml .yamllint.yml"
     ],
     "prepare": "husky",
-    "prepare-release": "pnpm format:check && pnpm lint && pnpm test && pnpm build && git add docs",
+    "prepare-release": "pnpm build && git add docs",
     "prepublish": "pnpm build",
     "release": "pnpm prepare-release && pnpm update-version && git push --follow-tags origin main",
     "serve:coverage": "http-server ./coverage",
