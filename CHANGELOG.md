@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.6...v0.0.7) (2024-02-12)
+
+
+### Features
+
+* add eslint-plugin-security ([6191a0c](https://github.com/f3rno64/node-ts-lib-template/commit/6191a0cb9d2c11927817122bb3eb538698b797e1))
+
 ### [0.0.6](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.5...v0.0.6) (2024-02-12)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.5...v0.0.6) (2024-02-12)
+
+
+### Bug Fixes
+
+* minor typos and linter warnings in README.md ([1796669](https://github.com/f3rno64/node-ts-lib-template/commit/1796669d548e04b04702bf758be6fda0e06cf481))
+
 ### [0.0.5](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.4...v0.0.5) (2024-02-10)
 
 
