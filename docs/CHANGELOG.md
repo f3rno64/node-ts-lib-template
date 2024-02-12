@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.4...v0.0.5) (2024-02-10)
+
+
+### Features
+
+* add yamlfmt and yamllint to lint-staged hooks and manifest scripts ([2452dd1](https://github.com/f3rno64/node-ts-lib-template/commit/2452dd16996095908be85e3baf133f269513f335))
+
 ### [0.0.4](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.3...v0.0.4) (2024-02-06)
 
 
