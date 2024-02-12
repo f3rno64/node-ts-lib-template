@@ -45,6 +45,7 @@
     "plugin:promise/recommended",
     "plugin:chai-expect/recommended",
     "plugin:switch-case/recommended",
+    "plugin:security/recommended-legacy",
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-json",
     "plugin:@typescript-eslint/recommended",

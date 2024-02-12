@@ -100,6 +100,9 @@ devDependencies:
   eslint-plugin-regexp:
     specifier: ^2.2.0
     version: 2.2.0(eslint@8.56.0)
+  eslint-plugin-security:
+    specifier: ^2.1.0
+    version: 2.1.0
   eslint-plugin-sonarjs:
     specifier: ^0.23.0
     version: 0.23.0(eslint@8.56.0)
@@ -2455,6 +2458,12 @@ packages:
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
+    dev: true
+
+  /eslint-plugin-security@2.1.0:
+    resolution: {integrity: sha512-ywxclP954bf8d3gr6KOQ/AFc+PRvWuhOxtPOEtiHmVYiZr/mcgQtmSJq6+hTEXC5ylTjHnPPG+PEnzlDiWMXbQ==}
+    dependencies:
+      safe-regex: 2.1.1
     dev: true
 
   /eslint-plugin-sonarjs@0.23.0(eslint@8.56.0):
@@ -5202,6 +5211,12 @@ packages:
       call-bind: 1.0.6
       get-intrinsic: 1.2.4
       is-regex: 1.1.4
+    dev: true
+
+  /safe-regex@2.1.1:
+    resolution: {integrity: sha512-rx+x8AMzKb5Q5lQ95Zoi6ZbJqwCLkqi3XuJXp5P3rT8OEc6sZCJG5AE5dU3lsgRr/F4Bs31jSlVN+j5KrsGu9A==}
+    dependencies:
+      regexp-tree: 0.1.27
     dev: true
 
   /safer-buffer@2.1.2:
