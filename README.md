@@ -46,7 +46,7 @@ run `pnpm serve:docs` or `http-server docs` and navigate to
 
 ### Deploy Documentation On GitHub Pages
 
-To enable Github Pages, access the repository settings and configure the Pages
+To enable GitHub Pages, access the repository settings and configure the Pages
 settings to use the `main` (or `master`) branch and the `./docs` folder.
 
 ### Testing
@@ -135,9 +135,9 @@ plugins, the full list is below:
 
 ### Formatting
 
-[**`Prettier`**][prettier-url] is included to automatically format sources in
-order to enforce a consistent and standardized code style. It automatically
-verifies that sources conform to the standard style as part of the
+[**`Prettier`**][prettier-url] is included to automatically format sources to
+enforce a consistent and standardized code style. It automatically verifies
+that sources conform to the standard style as part of the
 [**`Husky`**][husky-url] **pre-commit** hook.
 
 Two scripts are provided:
@@ -157,7 +157,7 @@ Two scripts are provided:
 with two commit hooks:
 
 - **pre-commit**: runs
-    [**`lint-staged`**][lint-staged-url] which runs
+    [**`lint-staged`**][lint-staged-url], which runs
     [**`markdownlint`**][markdownlint-url] and [**`ESLint`**][eslint-url] on
     [*README.md*](/README.md) and project sources in [**`src/**`**](/src).
 - **commit-msg**: runs [**`commitlint`**][commitlint-url] on commit messages
@@ -182,7 +182,7 @@ at [**`./dist/index.js`**](/dist/index.js) as defined in the
 ### CI
 
 After each push to the **`main`** branch, the
-[**`CI Github Action`**](/.github/workflows/ci.yml) runs to ensure all checks
+[**`CI GitHub Action`**](/.github/workflows/ci.yml) runs to ensure all checks
 pass.
 
 ### Releasing
@@ -218,7 +218,7 @@ Available scripts are:
 ### Publishing
 
 Publishing to the [**`NPM Registry`**][npm-registry-url] is done automatically
-with a [**`NPM Publish Github Action`**](./.github/workflows/npm-publish.yml)
+with a [**`NPM Publish GitHub Action`**](./.github/workflows/npm-publish.yml)
 that runs when a new tag is pushed. For this to work, you must add a secret
 named **`NPM_TOKEN`** to the repository settings.
 
