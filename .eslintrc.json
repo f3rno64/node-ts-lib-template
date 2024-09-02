@@ -2,7 +2,6 @@
   "root": true,
   "env": {
     "node": true,
-    "mocha": true,
     "es2024": true
   },
   "parser": "@typescript-eslint/parser",
@@ -17,7 +16,6 @@
   },
   "plugins": [
     "pure",
-    "mocha",
     "github",
     "lodash",
     "regexp",
@@ -27,30 +25,25 @@
     "immutable",
     "no-secrets",
     "json-format",
-    "chai-expect",
     "switch-case",
     "optimize-regex",
     "@typescript-eslint",
     "write-good-comments",
     "eslint-plugin-tsdoc",
-    "@fintechstudios/eslint-plugin-chai-as-promised"
   ],
   "extends": [
     "eslint:recommended",
-    "plugin:mocha/recommended",
     "plugin:github/recommended",
     "plugin:lodash/recommended",
     "plugin:regexp/recommended",
     "plugin:sonarjs/recommended",
     "plugin:promise/recommended",
-    "plugin:chai-expect/recommended",
     "plugin:switch-case/recommended",
     "plugin:security/recommended-legacy",
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-json",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@fintechstudios/chai-as-promised/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
   "rules": {

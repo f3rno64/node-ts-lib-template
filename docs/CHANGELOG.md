@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.7...v0.0.8) (2024-02-12)
+
+
+### Bug Fixes
+
+* use pnpm to exec lint-staged in pre-commit hook ([f243874](https://github.com/f3rno64/node-ts-lib-template/commit/f243874c2b4a7e2c31af99be00354ae13a36b645))
+
 ### [0.0.7](https://github.com/f3rno64/node-ts-lib-template/compare/v0.0.6...v0.0.7) (2024-02-12)
 
 
